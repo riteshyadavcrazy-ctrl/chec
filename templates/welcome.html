@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot is Live</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            width: min(92vw, 440px);
+            padding: 32px;
+            border: 1px solid rgba(148, 163, 184, 0.25);
+            border-radius: 18px;
+            background: rgba(15, 23, 42, 0.72);
+            box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+            text-align: center;
+        }
+        h1 { font-size: 2rem; margin-bottom: 12px; }
+        p { color: #94a3b8; line-height: 1.6; }
+        .status {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 20px;
+            padding: 10px 14px;
+            border-radius: 999px;
+            background: rgba(34, 197, 94, 0.12);
+            color: #86efac;
+            font-weight: 700;
+        }
+        .dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 999px;
+            background: #22c55e;
+        }
+    </style>
+</head>
+<body>
+    <main class="card">
+        <h1>Telegram Bot</h1>
+        <p>The deployment is running.</p>
+        <div class="status"><span class="dot"></span>Live</div>
+    </main>
+</body>
+</html>
